@@ -1,0 +1,14 @@
+[project]
+name = "calib"
+version = "1.0.0"
+description = "A calibration tool for JA2182 glider sim."
+readme = "README.md"
+requires-python = ">=3.12.5"
+dependencies = [
+   "flet[all]",
+   "pyserial",
+   "numpy",
+   "scipy",
+   "pywinusb",
+   "pyinstaller>=6.18.0",
+]
